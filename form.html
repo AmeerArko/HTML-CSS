@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caffe house</title>
+    <style>
+        form .basic-info label{
+            display: block;
+            margin-top: 15px;
+            margin-bottom: 10px;
+        }
+    </style>
+    <link rel="stylesheet" href="styles/nav.css">
+</head>
+<body>
+      <header>
+         <nav>
+            <ul>
+                <li><a href="blogs.html" target="_blank">blogs</a> </li>
+                <li><a href="center.html" target="_blank">center</a></li>
+                <li><a href="flex.html" target="_blank">flex</a></li>
+                <li><a href="Table.html " target="_blank">Table</a></li>
+                <li><a href="form.html" target="_blank">form</a></li>
+                <li><a href="auto.html" target="_blank">Margin Auto</a></li>
+            </ul>
+         </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Plan B caffe </h2>
+            <form >
+                 <fieldset class="basic-info">
+                <legend>Customer Info</legend>
+               
+                     <label for="name">Your name</label> 
+              <input type="text"  id="name">
+              <br><br>
+
+              <label for="email">Email Adress</label>
+              <input type="email" id="email">
+                </fieldset>
+               
+                 <fieldset>
+                    <legend> Coffe Info</legend>
+                    <input type="radio" name="coffe" id="espresso">
+                    <label for="espresso">Espresso</label>
+                    <input type="radio" name="coffe"  id="cappuccino">
+                    <label for="cappuccino">Cappuccino</label>
+                    <input type="radio" name="coffe" id="Americano">
+                    <label for="Americano">Americano</label>
+                 </fieldset>
+                 <br><br>
+                 <fieldset>
+                    <legend> Pastry Info</legend>
+                    <input type="checkbox" name="pastry" id="chocolate">
+                    <label for="chocolate"> Chocolate</label>
+                    <input type="checkbox" name="pastry" id="strawberry">
+                    <label for="strawberry"> Strawberry</label>
+                    <input type="checkbox" name="pastry" id="Velvet">
+                    <label for="Velvet"> Red Velvet </label>
+                 </fieldset>
+                 <fieldset>
+                    <legend>Extra Info</legend>
+                    <textarea cols="50" rows="4" name="" id=""></textarea>
+                 </fieldset>
+                 <br>
+                 <input type="submit" value="submit">
+                 <input type="reset" value="clear">
+
+            </form>
+        </section>
+
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
